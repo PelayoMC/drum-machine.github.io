@@ -1,4 +1,4 @@
 # Proyecto del curso de freecodecamp
-Muestra de citas célebres.
+Batería online.
 
 Página: https://pelayomc.github.io/drum-machine.github.io/
