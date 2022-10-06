@@ -10,9 +10,7 @@ const DrumPad = props => {
         onSetValue(info.text);
     }
     
-    return <button className="drum-pad" onClick={() => 
-        playSound(ref)
-    }><audio ref={ref} id={info.value} src={info.audio} type="audio/mpeg"></audio><b>{info.value}</b></button>
+    return <button className="drum-pad" onClick={() => playSound(ref)} ><audio ref={ref} id={info.value} src={info.audio} type="audio/mpeg"></audio><b>{info.value}</b></button>
 // }}><audio className='clip' ref={ref} id={info.value}><source src={info.audio} type="audio/mpeg" /></audio><b>{info.value}</b></button>
 }
 
